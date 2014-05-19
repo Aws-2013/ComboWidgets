@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Combined Widgets Page</title>
+		<link rel="stylesheet" type="text/css" href="css/fonts-min.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="accordion/accordion.css"/>
+		<link rel="stylesheet" type="text/css" href="dropdown/dropdown.css"/>
+		<link rel="stylesheet" type="text/css" href="tabs/jQTabs.css"/>
+		<link rel="stylesheet" type="text/css" href="tabs/jQTabsCustom.css"/>
+		<link rel="stylesheet" type="text/css" href="menu/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="font.css"/>
+		<script src="js/jquery-1.9.0.js"></script>
+		<script src="js/jquery-ui.js"></script>
+                <script src="ScrollTo.js"></script>
+		<script src="accordion/jQWidget.accordion.js"></script>
+		<script src="dropdown/jQWidget.dropdown.js"></script>
+		<script src="tabs/jQWidget.tabs.js"></script>
+		<script src="menu/jQWidget.menu.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div style="padding:20px 5px;">
+			<img src="derf_logo.jpg" />
+		</div>
+		<div style="width:100%; float:left;" class="my_menu horizontal" id="my_menu">
+			<ul class="menu">
+				<li class="rootMenuItem">
+					<a class="" href="#">Calendar</a>
+					<ul class="slideOutSubMenu">
+						<li class="subMenuItem">
+							<a class="" href="#">This Week</a>
+							<ul class="slideOutSubMenu">
+								<li class="subMenuItem">
+									<a class="" href="#">This Week</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Currently Marketed</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Filed</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Recent Pricings</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Confidential</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Closed End Funds</a>
+								</li>
+								<li class="subMenuItem">
+									<a class="" href="#">Historical</a>
+								</li>
+							</ul>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Currently Marketed</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Filed</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Recent Pricings</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Confidential</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Closed End Funds</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Historical</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Deal</a>
+					<ul class="slideOutSubMenu">
+						<li class="subMenuItem">
+							<a class="" href="#">Create Deal</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="reports.htm">Documents</a>
+					<ul class="slideOutSubMenu">
+						<li class="subMenuItem">
+							<span class="item_header">Cross Deal</span>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">ECM Content</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Wires</a>
+					<ul class="slideOutSubMenu" style="display: none;">
+						<li class="subMenuItem">
+							<span class="item_header">Cross Deal</span>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Inbox</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Manage Response</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Reports</a>
+					<ul class="slideOutSubMenu" style="display: none;">
+						<li class="subMenuItem">
+							<a class="" href="#">Cross Deal</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Admin</a>
+					<ul class="slideOutSubMenu" style="display: none;">
+						<li class="subMenuItem">
+							<a class="" href="#">Sales Coverage</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Sales Associates</a>
+						</li>
+						<li class="subMenuItem">
+							<span class="item_header">Master Lists</span>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Broker/Dealers</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Custom Expenses</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Document Types</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Industry Sectors</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Institutional Investors</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Internet Presentation Vendors</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Issuers</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Manage Email Alerts</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Personnel</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Security Types</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Tranches</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">Underwriter Lists</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Applications</a>
+					<ul class="slideOutSubMenu" style="display: none;">
+						<li class="subMenuItem">
+							<a class="" href="#">Equity Deals Database</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">iCompliance</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">iPlanner</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="" href="#">New Session</a>
+						</li>
+					</ul>
+				</li>
+				<li class="rootMenuItem">
+					<a class="" href="#">Logout</a>
+				</li>
+			</ul>
+		</div>
+		<div id="tabsContainer">
+			<div id="tabs">
+				<div id="Dropdown">
+					<a tabindex="1">Dropdown</a>
+				</div>
+				<div id="Accordion">
+					<a tabindex="2">Accordion</a>
+				</div>
+				<div id="tab3">
+					<a tabindex="3">Tab3</a>
+				</div>
+			</div>
+			<div id="tabsContentContainer" style="float:left;width:100%">
+				<div class="tab_content">
+					<div class="dd_ctrl_group" id="dd4">
+						<input type="text" class="input inputText" value="--Please Select--" />
+						<div class="dd_contents">
+							<ul>
+								<li>
+									<label>
+										<input type="checkbox" value="item1" />
+										Very long list item</label>
+								</li>
+								<li>
+									<label>
+										<input style="vertical-align: middle" type="checkbox" value="item2" />
+										item2</label>
+								</li>
+								<li>
+									<label>
+										<input type="checkbox" value="item3" />
+										item3</label>
+								</li>
+								<li>
+									<label>
+										<input type="checkbox" value="items4" />
+										item4</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br />
+					<div class="dd_ctrl_group" id="dd5">
+						<input type="text" class="input inputText" value="--Please Select--" />
+						<div class="dd_contents">
+							<ul>
+								<li>
+									<label>
+										<input type="checkbox" value="item1" />
+										item1item1item1item1item1</label>
+								</li>
+								<li>
+									<label>
+										<input type="checkbox" value="item2" />
+										item2</label>
+								</li>
+								<li>
+									<label>
+										<input type="checkbox" value="item3" />
+										item3</label>
+								</li>
+								<li>
+									<label>
+										<input type="checkbox" value="items4" />
+										item4</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br />
+					<!--<div class="dd_ctrl_group" id="dd6">
+						<input type="text" class="input inputText" value="--Please Select--" />
+						<div class="dd_contents">
+							<ul>
+								<li>
+									item5
+								</li>
+								<li>
+									item6
+								</li>
+								<li>
+									item7
+								</li>
+								<li>
+									item8
+								</li>
+							</ul>
+						</div>
+					</div>-->
+					<br/>
+					<div class="dd_ctrl_group" id="dd7">
+						<label class="input label_dd">Label Dropdown</label>
+						<div class="dd_contents">
+							<ul>
+								<li>
+									item5
+								</li>
+								<li>
+									item6
+								</li>
+								<li>
+									item7
+								</li>
+								<li>
+									item8
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br/>
+					<div class="dd_ctrl_group" id="dd8">
+						<label class="input label_dd">Label Dropdown2</label>
+						<div class="dd_contents dd_contents_menu">
+							<ul>
+								<li>
+									<a href="#">Progressive Disclosure</a>
+								</li>
+								<li>
+									<a href="#">Use of Color</a>
+								</li>
+								<li>
+									<a href="#">Use of Charts</a>
+								</li>
+								<li>
+									<a href="#">Combine Search</a>
+								</li>
+								<li>
+									<a href="#">Dependency on Mouse</a>
+								</li>
+								<li>
+									<a href="#">Default Preferences</a>
+								</li>
+								<li>
+									<a href="#">Provide User Feedback</a>
+								</li>
+								<li>
+									<a href="#">Use of AJAX</a>
+								</li>
+								<li>
+									<a href="#">White Space</a>
+								</li>
+								<li>
+									<a href="#">Inline Editing of Grids</a>
+								</li>
+								<li>
+									<a href="#">Better Iconography</a>
+								</li>
+								<li>
+									<a href="#">Keyboard Functions</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br/>
+					<div class="dd_ctrl_group" id="dd11" style="float:right; right:25px;">
+						<label class="input label_dd">Label Dropdown2</label>
+						<div class="dd_contents dd_contents_menu">
+							<ul>
+								<li>
+									<a href="#">Progressive Disclosure</a>
+								</li>
+								<li>
+									<a href="#">Use of Color</a>
+								</li>
+								<li>
+									<a href="#">Use of Charts</a>
+								</li>
+								<li>
+									<a href="#">Combine Search</a>
+								</li>
+								<li>
+									<a href="#">Dependency on Mouse</a>
+								</li>
+								<li>
+									<a href="#">Default Preferences</a>
+								</li>
+								<li>
+									<a href="#">Provide User Feedback</a>
+								</li>
+								<li>
+									<a href="#">Use of AJAX</a>
+								</li>
+								<li>
+									<a href="#">White Space</a>
+								</li>
+								<li>
+									<a href="#">Inline Editing of Grids</a>
+								</li>
+								<li>
+									<a href="#">Better Iconography</a>
+								</li>
+								<li>
+									<a href="#">Keyboard Functions</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<br/>
+					<div class="dd_ctrl_group" id="dd9">
+						<label class="input label_dd">Label Dropdown3</label>
+						<div class="dd_contents dd_contents_menu">
+							<img src="dropdown/images/deal_currency.png" />
+						</div>
+					</div>
+					<br/>
+					<div class="dd_ctrl_group" id="dd10" style="float:right; right:25px;">
+						<label class="input label_dd">Label Dropdown4</label>
+						<div class="dd_contents dd_contents_menu">
+							<img src="dropdown/images/deal_currency.png" />
+						</div>
+					</div>
+				</div>
+
+				<div class="tab_content">
+					<div style="width:45%; float:left">
+						<div style="font-size:14px">
+							<strong>First Accordion</strong>
+						</div>
+						<div id="accordion1" class="accordion">
+							<div class="accordion_title">
+								Top Performing Hedge Funds
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 1</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum lacinia rutrum. Integer arcu tortor, imperdiet nec aliquet ut, accumsan a sem. Phasellus quis porttitor purus. Curabitur vulputate enim at sem volutpat luctus. Vestibulum bibendum congue lacinia.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 2</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 3</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Nam in tortor elit, in pellentesque elit. Aenean vel tellus velit, sit amet ultrices mauris. In vitae tortor eros, in faucibus lorem. Donec in est tellus, id ultrices nunc. Curabitur id lacus metus, non volutpat ante. Quisque et aliquam ipsum. Maecenas et elementum ante.
+										<br/>
+										<br/>
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 1</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum lacinia rutrum. Integer arcu tortor, imperdiet nec aliquet ut, accumsan a sem. Phasellus quis porttitor purus. Curabitur vulputate enim at sem volutpat luctus. Vestibulum bibendum congue lacinia.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 2</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 3</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Nam in tortor elit, in pellentesque elit. Aenean vel tellus velit, sit amet ultrices mauris. In vitae tortor eros, in faucibus lorem. Donec in est tellus, id ultrices nunc. Curabitur id lacus metus, non volutpat ante. Quisque et aliquam ipsum. Maecenas et elementum ante.
+										<br/>
+										<br/>
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="width:45%; float:left">
+						<div style="font-size:14px">
+							<strong>Second Accordion</strong>
+						</div>
+						<div id="accordion2" class="accordion">
+							<div class="accordion_title">
+								Top Performing Hedge Funds
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 1</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum lacinia rutrum. Integer arcu tortor, imperdiet nec aliquet ut, accumsan a sem. Phasellus quis porttitor purus. Curabitur vulputate enim at sem volutpat luctus. Vestibulum bibendum congue lacinia.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 2</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 3</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Nam in tortor elit, in pellentesque elit. Aenean vel tellus velit, sit amet ultrices mauris. In vitae tortor eros, in faucibus lorem. Donec in est tellus, id ultrices nunc. Curabitur id lacus metus, non volutpat ante. Quisque et aliquam ipsum. Maecenas et elementum ante.
+										<br/>
+										<br/>
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 1</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum lacinia rutrum. Integer arcu tortor, imperdiet nec aliquet ut, accumsan a sem. Phasellus quis porttitor purus. Curabitur vulputate enim at sem volutpat luctus. Vestibulum bibendum congue lacinia.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 2</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+							<div class="accordion_panel">
+								<a href="#">Acc 3</a>
+								<div class="accordion_panel_content">
+									<div class="content">
+										Nam in tortor elit, in pellentesque elit. Aenean vel tellus velit, sit amet ultrices mauris. In vitae tortor eros, in faucibus lorem. Donec in est tellus, id ultrices nunc. Curabitur id lacus metus, non volutpat ante. Quisque et aliquam ipsum. Maecenas et elementum ante.
+										<br/>
+										<br/>
+										Sed purus orci, interdum in scelerisque a, convallis vitae dolor. Ut vulputate hendrerit turpis eget lobortis. Quisque in purus mauris, nec mollis nisi. Phasellus fermentum sem ac eros ullamcorper sit amet pulvinar libero accumsan. Curabitur accumsan, ligula eget tempor mattis, orci nisl molestie eros, sed porta enim dolor id justo.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab_content">
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
