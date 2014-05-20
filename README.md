@@ -2,4 +2,4 @@ ComboWidgets
 ============
 
 ComboWidgets
-is a compilation of Menu, Tabs, Dropdown and Accordion widgets within a page context.
+is a compilation of my custom Menu, Tabs, Dropdown and Accordion widgets within a page context.
