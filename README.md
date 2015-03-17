@@ -13,4 +13,4 @@ is a compilation of my custom Menu, Tabs, Dropdown and Accordion widgets within 
 [Menu repo]:https://github.com/Aws-2013/menu
 [Tab repo]:https://github.com/Aws-2013/tabs
 [Accordion repo]:https://github.com/Aws-2013/accordion
-[ComboWidgets Demo]:http://arcticwebsolutions.com/portfolio/ComboWidgets/
+[ComboWidgets Demo]:http://www.arcticwebsolutions.com/PortFdqoiewpoiQMopfladAPKdfderzmbiJWQDlgfdgjk/portfolio/ComboWidgets/
